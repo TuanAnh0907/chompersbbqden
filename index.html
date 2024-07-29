@@ -49,6 +49,49 @@
             font-size: 16px
         }
     </style>
+
+    <style type="text/css">
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            margin: 0;
+            padding: 1.5rem 0;
+            width: 120px;
+            cursor: pointer;
+            background: whitesmoke;
+        }
+
+        .dropdown > a {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .dropdown-content li {
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px 0;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            color: #ddaa44;
+        }
+    </style>
 </head>
 
 <body>
@@ -68,32 +111,50 @@
                                 <div align="center" class="style2">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td height="0" colspan="3" align="center" valign="top" bgcolor="#666666"><p
-                                                class="style4"><span class="style5">About Us - <a
-                                                href="Chompers-full-menu-may.pdf" target="_blank">Full Menu</a> - <a
-                                                href="mailto:chompersbbq@gmail.com">Contact Us</a> - <a
-                                                href="https://www.facebook.com/pg/Chompersbbq/about/?ref=page_internal"
-                                                target="_blank">Location</a> </span><br/>
-                                                69399 hwy 59, 70420 Abita Springs, LA <span class="style6">70420 </span>
-                                                / 985-892-0205 - email us <a href="mailto:chompersbbq@gmail.com">chompersbbq@gmail.com</a><br/>
-                                                <br/>
-                                            </p>
+                                            <td height="0" colspan="3" align="center" valign="top" bgcolor="#666666">
+                                                <div class="style4" style="margin: 10px 0;">
+                                                    <div class="style5" style="display: inline; color: black">About Us -
+                                                        <a href="Chompers-full-menu-may.pdf"
+                                                           target="_blank">Full Menu</a> -
+                                                        <a href="mailto:chompersbbq@gmail.com">Contact Us</a> -
+                                                        <a href="https://www.facebook.com/pg/Chompersbbq/about/?ref=page_internal"
+                                                           target="_blank">Location</a> -
+                                                        <div class="dropdown">
+                                                            <a href="#" title="Cities">Cities</a>
+                                                            <ul class="dropdown-content">
+                                                                <li><a>Ha Noi</a></li>
+                                                                <li><a>TP.Ho Chi Minh</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <br/>
+                                                    69399 hwy 59, 70420 Abita Springs, LA
+                                                    <span class="style6">70420 </span>
+                                                    / 985-892-0205 - email us <a href="mailto:chompersbbq@gmail.com">chompersbbq@gmail.com</a>
+                                                    <br/>
+                                                    <br/>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td width="22%" align="center" valign="top" bgcolor="#FFFFFF"><p
-                                                align="center"><a href="images/chompers.png" target="_blank"><img
-                                                src="images/chompersmall.png" alt="Sauce Says It All" width="226"
-                                                height="289" border="0"/></a></p></td>
-                                            <td width="55%" align="center" valign="top" bgcolor="#FFFFFF"><a
-                                                href="images/sand.jpg" target="_blank"></a><a href="images/cater.jpg"
-                                                                                              target="_blank"><img
-                                                src="images/cater.jpg" alt="cater" width="604" height="289" border="0"/></a>
+                                            <td width="22%" align="center" valign="top" bgcolor="#FFFFFF">
+                                                <p align="center" style="margin: 0">
+                                                    <a href="images/chompers.png" target="_blank">
+                                                        <img src="images/chompersmall.png" alt="Sauce Says It All"
+                                                             width="226" height="289" border="0"/></a>
+                                                </p>
                                             </td>
-                                            <td width="23%" align="center" valign="top" bgcolor="#FFFFFF"><a
-                                                href="images/ChompersBBQ.jpg" target="_blank">
-                                                <img src="images/jeff.png" alt="Jeff" width="217" height="289"
-                                                     border="0"/></a></td>
+                                            <td width="55%" align="center" valign="top" bgcolor="#FFFFFF">
+                                                <a href="images/sand.jpg" target="_blank"></a>
+                                                <a href="images/cater.jpg" target="_blank">
+                                                    <img src="images/cater.jpg" alt="cater" width="604" height="289"
+                                                         border="0"/></a>
+                                            </td>
+                                            <td width="23%" align="center" valign="top" bgcolor="#FFFFFF">
+                                                <a href="images/ChompersBBQ.jpg" target="_blank">
+                                                    <img src="images/jeff.png" alt="Jeff" width="217" height="289"
+                                                         border="0"/></a>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td height="0" colspan="3" align="center" valign="top"><a
@@ -130,6 +191,64 @@
                                                  height="200" border="0"/></a>
                                     </p>
                                 </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center style="margin-top:20px; border-radius: 15px; padding: 10px">
+                                    <h2 style="color: #2E8B57; font-weight: bolder; font-size: 35px">
+                                        Bài viết mới nhất</h2>
+                                    <ul class="list-articles" style="list-style: none; padding: 0;">
+                                        <li class="article-item">
+                                            <a style="color: black!important;"
+                                               href="https://amthucbinhxuyen.com/post/tong-hop-16-quan-nhau-tai-phuong-4-quan-10.p664">
+                                                Tổng hợp 16 quán nhậu tại Phường 4 Quận 10
+                                            </a>
+                                        </li>
+                                        <li class="article-item">
+                                            <a style="color: black!important;"
+                                               href="https://amthucbinhxuyen.com/post/tong-hop-11-quan-tra-sua-tai-phuong-4-quan-10.p663">
+                                                Tổng hợp 11 quán trà sữa tại Phường 4 Quận 10
+                                            </a>
+                                        </li>
+                                        <li class="article-item">
+                                            <a style="color: black!important;"
+                                               href="https://amthucbinhxuyen.com/post/top-17-quan-cafe-tai-phuong-15-quan-4.p662">
+                                                Top 17 quán cafe tại Phường 15 Quận 4
+                                            </a>
+                                        </li>
+                                        <li class="article-item">
+                                            <a style="color: black!important;"
+                                               href="https://amthucbinhxuyen.com/post/top-11-quan-nhau-tai-phuong-8-quan-11.p661">
+                                                Top 11 quán nhậu tại Phường 8 Quận 11
+                                            </a>
+                                        </li>
+                                        <li class="article-item">
+                                            <a style="color: black!important;"
+                                               href="https://amthucbinhxuyen.com/post/danh-sach-10-quan-an-sang-tai-phuong-5-quan-6.p660">
+                                                Danh sách 10 quán ăn sáng tại Phường 5 Quận 6
+                                            </a>
+                                        </li>
+                                        <li class="article-item">
+                                            <a style="color: black!important;"
+                                               href="https://amthucbinhxuyen.com/post/danh-sach-13-quan-nhau-tai-phuong-5-quan-6.p659">
+                                                Danh sách 13 quán nhậu tại Phường 5 Quận 6
+                                            </a>
+                                        </li>
+                                        <li class="article-item">
+                                            <a style="color: black!important;"
+                                               href="https://amthucbinhxuyen.com/post/danh-sach-14-quan-nhau-tai-phuong-6-quan-6.p658">
+                                                Danh sách 14 quán nhậu tại Phường 6 Quận 6
+                                            </a>
+                                        </li>
+                                        <li class="article-item">
+                                            <a style="color: black!important;"
+                                               href="https://amthucbinhxuyen.com/post/top-15-quan-cafe-tai-phuong-5-quan-6.p657">
+                                                Top 15 quán cafe tại Phường 5 Quận 6
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </center>
                             </td>
                         </tr>
                         <tr>
